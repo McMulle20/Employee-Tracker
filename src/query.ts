@@ -1,23 +1,13 @@
-import { Client } from 'pg';
-
-const client = new Client({
-  user: 'your_username',
-  host: 'localhost',
-  database: 'your_database',
-  password: 'your_password',
-  port: 5432,
-});
+// Import the pool from connection.ts
+import { pool } from './connection';
 
 // Function to execute any query
 async function executeQuery(query: string, params: any[] = []) {
   try {
-    await client.connect();
-    const res = await client.query(query, params);
+    const res = await pool.query(query, params);
     return res.rows;
   } catch (err) {
     console.error('Error executing query', err.stack);
-  } finally {
-    await client.end();
   }
 }
 

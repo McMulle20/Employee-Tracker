@@ -56,7 +56,7 @@ async function mainMenu() {
       break;
 
     case 'Quit':
-      console.log('Goodbye!');
+      console.log('Adios Mi Amigo!');
       break;
   }
 }
