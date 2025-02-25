@@ -29,15 +29,9 @@ The Employee Tracker is a command-line application that allows business owners t
 
 BootCamp Guide and the links provided: 
 Xpert Learning Assistant 
-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
-https://coding-boot-camp.github.io/full-stack/render/render-deployment-guide
-https://docs.render.com/configure-environment-variables
-https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys
-https://openweathermap.org/forecast5
-https://www.youtube.com/watch?v=cGn_LTFCif0(insructional to use POSTMAN)
-https://openweathermap.org/forecast5
-https://openweathermap.org/forecast5#geocoding
-
+https://www.npmjs.com/package/inquirer/v/8.2.4
+https://www.npmjs.com/package/pg
+https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
 
 ## License
 
